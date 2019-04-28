@@ -1,4 +1,7 @@
-package Marathon;
+package Marathon.barrier;
+
+import Marathon.barrier.abstr.Obstacle;
+import Marathon.runner.impl.Competitor;
 
 public class Cross extends Obstacle {
     int length;
