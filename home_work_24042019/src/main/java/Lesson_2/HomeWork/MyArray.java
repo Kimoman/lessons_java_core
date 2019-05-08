@@ -23,7 +23,7 @@ public class MyArray {
                 try {
                     intArr[i][j] = Integer.valueOf(strArr[i][j]);
                 } catch (NumberFormatException e) {
-                    throw new MyArrayDataException(e.getMessage()+ " index: [" + i + "] [" + j + "]");
+                    throw new MyArrayDataException(e.getMessage(), i , j);
                 }
 
             }
